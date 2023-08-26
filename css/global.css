@@ -5,9 +5,11 @@ Author: Templates On Web
 Author URI: http://templateonweb.com/
 Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
 */
-
+h1{
+  font-family: serif;
+}
 body{
-font-family: 'Philosopher', sans-serif; 
+font-family: 'railway', sans-serif; 
   }
 h1,h2,h3,h4,h5,h6{
 padding:0;
@@ -100,10 +102,10 @@ padding:0;
 
 /********************* header ****************/
 #header{ 
- background-color: #0d784f;
+ background-color: #002E5D;
 }
 #header .navbar-default .navbar-collapse{
- border-color: #0d784f;
+ border-color:#002E5D;
 }
 
 #header .navbar-default {
@@ -211,7 +213,7 @@ padding: 10px 15px;
 .center_main{ 
  padding-top:150px;
  padding-bottom:200px;
- background-color: #0000006b;
+ 
 }
 .center_1{ 
  text-align:center;
@@ -388,8 +390,8 @@ padding: 10px 15px;
  }
 .digital_3{ 
  padding: 30px;
- background: #47BB8E;
- border-bottom: 4px solid #0d784f;
+ background:#002f5dad;
+ border-bottom: 4px solid #002E5D;
  }
 .digital_3 h4{ 
  font-weight:bold;
@@ -542,7 +544,7 @@ padding: 10px 15px;
   text-align: center;
   font-size: 17px;
   padding: 10px;
-  background: #0d784f;
+  background: #002E5D;
   margin: 30px 0 0 0;
 }
 #work .ih-item.square.effect14 .info p {
@@ -969,7 +971,7 @@ border:1px solid #e1f5ed;
 #footer{
 padding-top:30px;
 padding-bottom:30px;
-background:#0d784f;
+background:#002E5D;
 }
 .footer_1i p{
 color:#ddd;
@@ -1036,17 +1038,17 @@ font-size:16px;
 color:#ddd; 
 }
 .footer_1i1  .btn{
-background:#0d784f;
+background:#002E5D;
 border:none;
 padding:6px 12px 6px 12px;
 color:#fff;
 }
 .footer_1i1  .btn:hover{
 background:#fff;
-color:#0d784f;
+color:#002E5D;
 }
 #footer .input-group{
-background: #0b6241;
+background: #002E5D;
 padding:15px;
 border-radius:30px;
 }
