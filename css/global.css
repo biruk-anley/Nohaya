@@ -269,7 +269,7 @@ padding: 10px 15px;
  border-radius: 50px;
  }
 .about_1{ 
- text-align:center;
+ text-align:first;
  }
 .about_1 h4{ 
  color: #09a96b;
@@ -282,6 +282,7 @@ padding: 10px 15px;
  }
 .hr_1{ 
  margin-top: 0px;
+ text-align: center;
  margin-bottom: 10px;
  border-top: 1px solid #09a96b;
  width: 7%;
