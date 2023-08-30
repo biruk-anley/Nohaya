@@ -112,13 +112,7 @@ padding:0;
  background: none;
  border-color:none;
 }
-/*
-.cd-secondary-nav .is-visible {
-  visibility: visible;
-  transform: scale(1);
-  transition: transform 0.3s, visibility 0s 0s;
-}
-*/
+
 .cd-secondary-nav.is-fixed {
     z-index: 9999;
     position: fixed;
@@ -136,13 +130,13 @@ transition: transform .3s;
  background: #002E5D;
  }
 #header .navbar-default .navbar-nav>li>a {
-color: #fff;
+color: #ffffff;
 font-size: 18px;
-padding-top: 30px;
-padding-bottom: 30px;
-font-weight: bold;
-margin-right: 2px;
-margin-left:2px;
+padding-top: 15px;
+padding-bottom: 40px;
+font-weight: 500;
+float: left;
+/* margin-left:20px; */
 }
 #header .navbar-default .navbar-nav>li>a:hover{
  
@@ -161,10 +155,10 @@ margin-bottom:0px;
 }
 #header .navbar-brand {
  color: #ffffffe5;
- font-size: 35px;
- font-weight: bold;
- padding-top: 32px;
- letter-spacing: 2px;
+ font-size: 20px;
+ font-family: sans-serif; 
+ font-weight: 600;
+ letter-spacing: 3px;
 }
 #header .navbar-brand span{
 color:#fff;
@@ -746,7 +740,7 @@ padding: 10px 15px;
 /********************* gallery_end ****************/
 /********************* team ****************/
 #team{ 
- padding-top:100px;
+ padding-top:130px;
  padding-bottom:50px;
  }
 .team_main{ 
@@ -828,7 +822,7 @@ padding: 10px 15px;
 /********************* team_end ****************/
 /********************* services ****************/
 #services{ 
- padding-top:120px;
+ padding-top:130px;
  padding-bottom:50px;
  }
 .services_main{ 
@@ -881,7 +875,7 @@ border:1px solid #e1f5ed;
 /********************* services_end ****************/
 /********************* contact ****************/
 #contact{ 
- padding-top:120px;
+ padding-top:130px;
  padding-bottom:50px;
  }
 .contact_main{ 
@@ -1123,7 +1117,7 @@ color: #fff;
 @media screen and (max-width : 767px){
 #header .navbar-brand {
  font-size: 22px;
- padding-top: 18px;
+ /* padding-top: 18px; */
  letter-spacing: 0px;
  padding-right:0;
 }
