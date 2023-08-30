@@ -746,7 +746,7 @@ padding: 10px 15px;
 /********************* gallery_end ****************/
 /********************* team ****************/
 #team{ 
- padding-top:50px;
+ padding-top:100px;
  padding-bottom:50px;
  }
 .team_main{ 
@@ -828,7 +828,7 @@ padding: 10px 15px;
 /********************* team_end ****************/
 /********************* services ****************/
 #services{ 
- padding-top:50px;
+ padding-top:120px;
  padding-bottom:50px;
  }
 .services_main{ 
@@ -881,7 +881,7 @@ border:1px solid #e1f5ed;
 /********************* services_end ****************/
 /********************* contact ****************/
 #contact{ 
- padding-top:50px;
+ padding-top:120px;
  padding-bottom:50px;
  }
 .contact_main{ 
@@ -1248,7 +1248,7 @@ color: #fff;
  font-size: 13px;
 }
 #team {
- padding-top: 20px;
+ padding-top: 120px;
  padding-bottom: 0px;
  text-align: center;
 }
@@ -1413,7 +1413,7 @@ text-align:center!important;
  font-size: 10px;
 }
 #team {
- padding-top: 30px;
+ margin-top: 200px;
  padding-bottom: 30px;
 }
 .team_main p {
