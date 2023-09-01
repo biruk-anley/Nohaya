@@ -6,10 +6,12 @@ Author URI: http://templateonweb.com/
 Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
 */
 h1{
-  font-family: serif;
+  /* font-family: serif; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
-font-family: 'railway', sans-serif; 
+/* font-family: 'railway', sans-serif;  */
+font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 h1,h2,h3,h4,h5,h6{
 padding:0;
@@ -28,9 +30,9 @@ padding:0px;
 margin:0px;
 }
 h1{
-font-size:64px;
-color:#000;
-font-weight:bold;
+font-size:70px;
+color:#000000d7;
+font-weight: 600;
 }
 h2{
 font-size: 46px;
@@ -131,7 +133,7 @@ transition: transform .3s;
  }
 #header .navbar-default .navbar-nav>li>a {
 color: #ffffff;
-font-size: 18px;
+font-size: 15px;
 padding-top: 15px;
 padding-bottom: 40px;
 font-weight: 500;
@@ -205,12 +207,13 @@ padding: 10px 15px;
  background-size:cover;
  }
 .center_main{ 
- padding-top:150px;
+ padding-top:110px;
  padding-bottom:200px;
  
 }
 .center_1{ 
  text-align:center;
+ 
  }
 .center_1 h2{ 
  color:#fff;
@@ -595,6 +598,25 @@ padding: 10px 15px;
  padding-top:20px;
  padding-bottom:30px;
  font-weight:bold;
+ }
+
+
+ .image-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: start;
+   align-items: center;
+   margin-top: 1px;
+   
+ }
+
+ /* Styling for individual images */
+ .image-container img {
+   
+   width: 25%;
+   text-align: start;
+   /* border-radius: 50%; */
+   /* Optional: Add rounded corners to images */
  }
 /********************* work_end ****************/
 /********************* gallery ****************/
@@ -1111,6 +1133,10 @@ color: #fff;
   color: #ddd;
   opacity: 1; /* Firefox */
 }
+h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+}
 /********************* footer_end ****************/
 @media screen  and (max-width : 467px) {
   #header .navbar-brand {
@@ -1134,7 +1160,7 @@ color: #fff;
       font-size: 20px;
       border-bottom: 1px solid #130e4275;
     }
-  
+       
     #header .navbar-default .navbar-toggle {
       border-color: #fff !important;
       background-color: #fff !important;
@@ -1421,6 +1447,7 @@ margin-top: -20px;
   width: 70%;
   font-size: 11px;
 }
+ 
 
 #header .navbar-nav {
  float: none;
