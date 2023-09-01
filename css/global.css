@@ -105,6 +105,7 @@ padding:0;
 /********************* header ****************/
 #header{ 
  background-color: #002E5D;
+ height: 92px;
 }
 #header .navbar-default .navbar-collapse{
  border-color:#002E5D;
@@ -135,9 +136,9 @@ transition: transform .3s;
 color: #ffffff;
 font-size: 15px;
 padding-top: 15px;
-padding-bottom: 40px;
+/* padding-bottom: 40px; */
 font-weight: 500;
-float: left;
+float: right;
 /* margin-left:20px; */
 }
 #header .navbar-default .navbar-nav>li>a:hover{
@@ -167,7 +168,8 @@ color:#fff;
 }
 #header .navbar-nav {
  padding-left:0px;
- padding-right:0px;           
+ padding-right:0px;   
+ margin-top: 25px;        
 }
 #header .navbar-right {
  padding-right:0px;
@@ -190,7 +192,7 @@ padding-top:22px;
  border:1px solid #000;
 }
 #header .nav>li>a {
-padding: 10px 15px;
+/* padding: 10px 15px; */
 }
 #header .navbar {
   margin-bottom:0px;
@@ -213,6 +215,11 @@ padding: 10px 15px;
 }
 .center_1{ 
  text-align:center;
+ 
+ }
+ .logo span{ 
+  color: white;
+  font-size: 17px;
  
  }
 .center_1 h2{ 
@@ -1143,7 +1150,7 @@ h2{
     
     width:85%;
     font-size:20px;
-    margin-top: -18px;
+    /* margin-top: -18px; */
   }
     #header .navbar-nav {
       float: none;
@@ -1152,11 +1159,11 @@ h2{
       color: #fff;
       font-size: 10px;
 
-        margin-top: -10px;
+        /* margin-top: -10px; */
     }
     #header .navbar-default .navbar-nav>li>a {
-      padding-top: 15px;
-      padding-bottom: 15px;
+      /* padding-top: 15px; */
+      /* padding-bottom: 15px; */
       font-size: 20px;
       border-bottom: 1px solid #130e4275;
     }
@@ -1184,7 +1191,7 @@ h2{
     }
   
     #header .navbar-brand {
-      padding-top: 16px;
+      /* padding-top: 16px; */
     }
   
     #about {
@@ -1453,7 +1460,7 @@ margin-top: -20px;
  float: none;
 }
 #header .navbar-default .navbar-nav>li>a {
- padding-top: 15px;
+ /* padding-top: 15px; */
  padding-bottom: 15px;
       font-size: 20px;
 }
@@ -1475,7 +1482,7 @@ margin-top: -20px;
  padding: 10px 10px;
 }
 #header .navbar-brand {
- padding-top: 16px;
+ /* padding-top: 16px; */
 }
 #about {
  padding-top: 30px;
