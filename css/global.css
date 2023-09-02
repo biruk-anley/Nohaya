@@ -13,6 +13,9 @@ body{
 /* font-family: 'railway', sans-serif;  */
 font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+  .center{
+    height: 87vh;
+  }
 h1,h2,h3,h4,h5,h6{
 padding:0;
 margin:0;
@@ -288,12 +291,12 @@ padding-top:22px;
  font-size: 80px;
  }
 .hr_1{ 
- margin-top: 0px;
+ margin-top: 10px;
  text-align: first;
  margin-bottom: 10px;
- border-top: 1px solid #002E5D;
+ border-top: 1px solid #f4f4f4;
  width: 100%;
- border-width: 2px;
+ border-width: 20px;
  }
 .about_1 p{ 
  color: #333;
@@ -344,6 +347,18 @@ padding-top:22px;
 .prodduct_2 h2{ 
  color:#fff;
  }
+ .prod{
+  background-color: #3C3C4E;
+  height: 72vh;
+  color: white !important;
+  
+ }
+ .prod h2{ color: white;}
+ .prod p{ color:white;}
+ .prod hr_1{
+  color:white;
+ }
+
 .prodduct_main{ 
  padding-top: 180px;
  padding-bottom: 200px;
@@ -400,6 +415,69 @@ padding-top:22px;
  padding: 30px;
  background:#002f5dad;
  border-bottom: 4px solid #002E5D;
+ }
+ .services_main .hr_1{
+  position: relative;
+    top: 20px;
+    right: 46%;
+    border: none;
+    height: 12px;
+    width: 60px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 50px;
+ }
+
+ .services_3 .hr_1 {
+   position: relative;
+   top: 20px;
+   right: 24%;
+   border: none;
+   height: 12px;
+   width: 25%;
+      background: rgb(255, 255, 255);
+   margin-bottom: 50px;
+ }
+ .services_2{
+  text-align: center;
+ }
+ .services_2 .hr_1 {
+    position: relative;
+      top: 20px;
+      right: 14%;
+      border: none;
+      height: 12px;
+      width: 25%;
+          background: rgb(255, 255, 255);
+      margin-bottom: 50px;
+ }
+ .services_1 {
+   text-align: center;
+   font-size: 15px;
+ }
+
+ .services_1 .hr_1 {
+   position: relative;
+   top: 20px;
+   right: 24%;
+   border: none;
+   height: 12px;
+   width: 25%;
+      background: rgb(255, 255, 255);
+   margin-bottom: 50px;
+ }
+ .services_4 {
+   text-align: center;
+ }
+
+ .services_4 .hr_1 {
+   position: relative;
+   top: 20px;
+   right: 8%;
+   border: none;
+   height: 12px;
+   width: 25%;
+      background: rgb(255, 255, 255);
+   margin-bottom: 50px;
  }
 .digital_3 h4{ 
  font-weight:bold;
@@ -768,6 +846,12 @@ padding-top:22px;
   -o-transform: translateX(0);
   transform: translateX(0);
 }
+.sol{
+  display: flex;
+  color: red;
+  justify-content: center;
+  align-items: center;
+}
 /********************* gallery_end ****************/
 /********************* team ****************/
 #team{ 
@@ -900,9 +984,7 @@ padding-top:22px;
 padding-left:10px;
 padding-right:10px;
  }
-.serv_m{
-border:1px solid #e1f5ed; 
- }
+
 /********************* services_end ****************/
 /********************* contact ****************/
 #contact{ 
