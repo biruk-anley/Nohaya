@@ -112,8 +112,9 @@ padding:0;
 }
 #header .navbar-default .navbar-collapse{
  border-color:#002E5D;
- background-color: #002E5D;
+ /* background-color: #002E5D; */
 }
+
 
 
 #header .navbar-default {
@@ -271,11 +272,11 @@ padding-top:22px;
 /********************* center_end ****************/
 /********************* about ****************/
 #about{ 
- border-bottom: 20px solid #002E5D;
+ /* border-bottom: 20px solid #002E5D; */
  padding-top:120px;
  padding-bottom: 30px;
- border-top: 20px solid #002E5D;
- border-radius: 50px;
+ /* border-top: 20px solid #002E5D; */
+ /* border-radius: 50px; */
  }
 .about_1{ 
  text-align:first;
@@ -986,6 +987,9 @@ padding-top:22px;
 padding-left:10px;
 padding-right:10px;
  }
+ .mgt {
+   font-size:1px;
+ }
 
 /********************* services_end ****************/
 /********************* contact ****************/
@@ -1087,6 +1091,7 @@ background:#3C3C4E;
 .footer_1i p{
 color:#ddd;
 margin-top:10px;
+font-size: 16px;
 }
 .footer_1i ul{
 margin-top:10px;
@@ -1094,7 +1099,7 @@ margin-top:10px;
 .footer_1i ul li{
 color:#ddd;
 margin-top:5px;
-font-size:17px;
+font-size:16px;
 display:block;
 }
 .footer_1i ul li i{
@@ -1104,7 +1109,8 @@ color:#ffffff;
 }
 .footer_1i1 h3{
 color:#fff; 
-font-size:30px;
+font-size:17px;
+font-weight: bold;
 text-transform:uppercase; 
 margin-top:8px;
 }
@@ -1170,20 +1176,24 @@ border-radius:5px;
 .footer_1i2 h3{
 color:#fff;
 text-transform:uppercase; 
+font-weight: bold;
 margin-top:8px;
-font-size:30px;  
+font-size:17px;  
 }
 .footer_1i2 hr{
-border-color:#002E5D; 
+border-color:#2e374100; 
 }
+
 .footer_1i2 p{
 line-height:1.2em;
 margin-bottom:3px;
 margin-top:20px;
 padding-bottom:0;  
+
 }
 .footer_1i2 p a{
-color:#ddd;
+
+
 }
 .footer_1i2 p a:hover{
 color:#002E5D;
@@ -1215,7 +1225,8 @@ color:#fcfcfc;
 
 .footer_1i h3 a{
 color: #ffffff;
-font-size:30px;
+font-size: 18px;
+  font-weight: bold;
  }
 .footer_1i h3 a span{
 color: #fff;
@@ -1228,6 +1239,7 @@ h2{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 80px;
 }
+
 /********************* footer_end ****************/
 @media screen  and (max-width : 467px) {
   #header .navbar-brand {
@@ -1236,6 +1248,10 @@ h2{
     font-size:20px;
     /* margin-top: -18px; */
   }
+    #header .navbar-default .navbar-collapse {
+      border-color: #002E5D;
+      background-color: #002E5D;
+    }
   .navbar-toggle{
     margin-top: 19px;
   }
@@ -1873,7 +1889,8 @@ text-align:center!important;
 }
 
 .footer_1i h3 a {
-font-size: 20px;
+font-size: 16px;
+font-weight: bold;
 }
 
 #footer p {
@@ -1984,7 +2001,8 @@ margin-top:18px;
 }
 
 .footer_1i h3 a {
-font-size: 26px;
+font-size: 17px;
+  font-weight: bold;
 }
 
 .footer_1i1 h3 {
