@@ -1256,7 +1256,9 @@ h2{
     margin-top: 19px;
   }
   .kol{
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top:-20px;
   }
   h1{
     font-size: 50px;
@@ -1306,6 +1308,18 @@ h2{
       /* padding-top: 16px; */
     }
   
+     .services_main .hr_1 {
+       position: relative;
+       top: 6px;
+       right: 148px;
+       /* right: 35px; */
+       /* right: 6%; */
+       border: none;
+       height: 12px;
+       width: 60px;
+       background: #4E5AC3;
+       margin-bottom: 50px;
+     }
     #about {
       padding-top: 30px;
       padding-bottom: 30px;
