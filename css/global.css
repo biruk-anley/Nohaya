@@ -1613,7 +1613,11 @@ h2{
                   width: 100%;
                   text-align: center;
                 }
-
+.carousel-inner img{
+  width:50%;
+  text-align: center;margin-left: 120px;
+  margin-bottom: 20px;
+}
 
 }
 
