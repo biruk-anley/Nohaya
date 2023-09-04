@@ -339,6 +339,19 @@ padding-top:22px;
  padding:0px;
  margin:0px;
  }
+ .trya{
+  width: 32%;
+ }
+ .tryb{
+  width: 20%;
+ }
+ .tryc{
+  width: 23%;
+    margin-left: 20px;
+ }
+ .tryd{
+  width: 23%;
+ }
 /********************* about_end ****************/
 /********************* prodduct ****************/
 #prodduct{ 
@@ -1242,6 +1255,9 @@ h2{
 
 /********************* footer_end ****************/
 @media screen  and (max-width : 467px) {
+  body{
+    width: 125%;
+  }
   #header .navbar-brand {
     
     width:100%;
@@ -1275,6 +1291,7 @@ h2{
 
         /* margin-top: -10px; */
     }
+   
     #header .navbar-default .navbar-nav>li>a {
       /* padding-top: 15px; */
       /* padding-bottom: 15px; */
@@ -1295,7 +1312,10 @@ h2{
       padding-top: 30px;
       padding-bottom: 60px;
     }
-  
+  .services_main{
+    margin-left: 10px;
+  }
+  .services_main 
     .well_1 a {
       padding: 10px 10px;
     }
@@ -1311,7 +1331,7 @@ h2{
      .services_main .hr_1 {
        position: relative;
        top: 6px;
-       right: 148px;
+       right: 205px;
        /* right: 35px; */
        /* right: 6%; */
        border: none;
@@ -1573,6 +1593,28 @@ h2{
     .contact_6 p {
       text-align: center !important;
     }
+    .trya{
+      width: 100%;
+      text-align: center;
+    }
+    
+
+    .tryb {
+      width: 100%;
+      text-align: center;
+    }
+
+        .tryc {
+          width: 100%;
+          text-align: center;
+        }
+
+                .tryd {
+                  width: 100%;
+                  text-align: center;
+                }
+
+
 }
 
 
