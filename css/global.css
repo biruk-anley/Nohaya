@@ -104,6 +104,10 @@ padding-right:0;
 .space_all{
 padding:0; 
 } 
+html,
+body {
+  overflow-x: hidden;
+}
 
 /********************* header ****************/
 #header{ 
@@ -365,7 +369,7 @@ padding-top:22px;
  }
  .prod{
   background-color: #3C3C4E;
-  height: 72vh;
+  height: 100vh;
   color: white !important;
   
  }
@@ -1256,11 +1260,10 @@ h2{
 /********************* footer_end ****************/
 @media screen  and (max-width : 467px) {
   body{
-    width: 125%;
   }
   #header .navbar-brand {
     
-    width:100%;
+    /* width:100%; */
     font-size:20px;
     /* margin-top: -18px; */
   }
@@ -1330,8 +1333,8 @@ h2{
   
      .services_main .hr_1 {
        position: relative;
-       top: 6px;
-       right: 205px;
+       /* top: 6px; */
+       right: 150px;
        /* right: 35px; */
        /* right: 6%; */
        border: none;
